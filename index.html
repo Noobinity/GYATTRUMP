@@ -24,9 +24,31 @@
             top: 20px;
             right: 20px;
         }
+        .container {
+            height: 200px;
+            position: relative;
+        }
+
+        .vertical-center {
+            margin: 0;
+            position: absolute;
+            top: -70%;
+            left: 70%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
     </style>
     <body>
         <img src="Gyatt.jpg"  class="body">
+        <div class="container">
+            <div class="vertical-center">
+                <audio controls>
+                    <source src="gyatt.mp3" type="audio/ogg">
+                    <source src="gyatt.mp3" type="audio/mpeg">
+                  
+                  </audio>
+            </div>
+          </div>
         <div class="social-buttons">
             <a href="https://pump.fun/board"><img src="PF.png" alt="PumpFun"></a>
             <a href="https://twitter.com/Gyattrump"><img src="X.png" alt="Twitter"></a>
